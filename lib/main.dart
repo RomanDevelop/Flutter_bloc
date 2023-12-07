@@ -4,7 +4,7 @@ import 'package:flutter_application_3/home_page.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {

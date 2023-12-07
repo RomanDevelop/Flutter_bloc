@@ -37,6 +37,7 @@ class MyHomePage extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        heroTag: 1,
         onPressed: () {
           Navigator.of(context).push(
             MaterialPageRoute(

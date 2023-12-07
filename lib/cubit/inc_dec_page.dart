@@ -14,6 +14,7 @@ class IncDecPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
           FloatingActionButton(
+            heroTag: 3,
             onPressed: () {
               counterCubit.increment();
             },
@@ -24,6 +25,7 @@ class IncDecPage extends StatelessWidget {
             height: 10,
           ),
           FloatingActionButton(
+            heroTag: 2,
             onPressed: () {
               counterCubit.decrement();
             },
